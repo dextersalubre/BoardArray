@@ -18,7 +18,7 @@ class BoardArray : public Board {
             // ALGORITHM IS PROVIDED IN INSTRUCTIONS.TXT
             for(int i = 0; i <= SIZE; i++){
                 if(array[i].compare(entry)){
-                    for(int k = 0; k < SIZE; k++){
+                    for(int k = 0; k < index; k++){
                         array[i+1] = array[i];
                     }   
                 }
